@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "poetry-trial"
+version = "0.1.0"
+description = "trial-v"
+authors = ["sabban"]
+readme = "README.md"
+packages = [{include = "poetry_trial"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-dotenv = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
